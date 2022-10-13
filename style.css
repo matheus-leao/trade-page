@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    background: linear-gradient(127.72deg, #1E1B44 24.73%, #45108A 137.31%);
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("Images/background.png");
+    background-repeat: no-repeat;
+
+}
+
+div#criptoDev-logo { display: block;}
+
+div#formCity {
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#welcome {
+    display: flex;
+    flex-direction: column;
+}
+
+div#form {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+
+}
+
+div#background-city {
+    display: flex;
+
+    width: 70%;
+    height: 70%;
+}
+
+
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+
+}
+
+h4 {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+
+    color: #7473D0;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    font: "Poppins";
+    border-radius: 1%;
+
+    stroke: Solid;
+    color: #7473D0;
+}
+
+label {
+    color: #B1AFCD;
+}
+
+legend {
+    color: white;
+}
+
+fieldset {
+    border: #7473D0;
+    border-radius: 3;
+}
+
+button[type='submit'] {
+    fill: solid;
+    background-color: #42e8e0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+
+    text-align: center;
+
+    width: 170px;
+    height: 30px;
+
+    box-shadow: -30.8563px 42.0768px 84.1535px #17122B;
+    backdrop-filter: blur(11.4576px);
+
+    border-radius: 11.0388px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+#profileIcon {
+    background: url(Images/leao.png);
+    border-radius: 100px;
+
+    width: 26.04px;
+    height: 25.48px;
+}
+
+#userProfileDetails {
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
+    backdrop-filter: blur(11.4576px);
+
+    border-radius: 15px;
+    border-style:  solid;
+    border-color: white;
+
+    
+}
+
+.userProfileDetails{
+    visibility: hidden;
+}
+
+button[type='button'] {
+    color: #000;
+}
+
+div#title {
+    display: flex;
+    flex-direction: row;
+}
+
+div#bitTable {
+    display: flex;
+}
+
