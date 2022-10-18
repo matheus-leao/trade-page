@@ -6,6 +6,7 @@ body {
 #background {
     display: flex;
     flex-direction: column;
+    -ms-flex-align: center;
 
     background-image: url("Images/background.png");
     background-repeat: no-repeat;
@@ -122,50 +123,3 @@ form {
     display: flex;
     flex-direction: column;
 }
-
-section#header {
-    display: flex;
-    flex-direction: row;
-
-    justify-content: space-between;
-}
-
-#profileIcon {
-    background: url(Images/leao.png);
-    border-radius: 100px;
-
-    width: 26.04px;
-    height: 25.48px;
-}
-
-#userProfileDetails {
-    display: flex;
-    flex-direction: column;
-
-    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
-    backdrop-filter: blur(11.4576px);
-
-    border-radius: 15px;
-    border-style:  solid;
-    border-color: white;
-
-    
-}
-
-.userProfileDetails{
-    visibility: hidden;
-}
-
-button[type='button'] {
-    color: #000;
-}
-
-div#title {
-    display: flex;
-    flex-direction: row;
-}
-
-div#bitTable {
-    display: flex;
-}
-
